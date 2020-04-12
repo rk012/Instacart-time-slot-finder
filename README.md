@@ -7,7 +7,7 @@ A python program that detects time slots in Wegman's instacart delivery service 
 * Python Selenium library (use `pip3 install selenium` in terminal or command prompt after Python 3 is installed)
 * Google Chrome
 * Android with messages for web enabled
-###### I also made an easy-to-use Windows executable that doesn't require Python which can be installed [here](https://drive.google.com/uc?export=download&id=1pEclUi3if_fCQnKE_u5LzVHWK1t-etRM)
+###### I also made an easy-to-use Windows executable that doesn't require Python which can be downloaded [here](https://drive.google.com/uc?export=download&id=1pEclUi3if_fCQnKE_u5LzVHWK1t-etRM)
 
 ## Installation
 1. [Clone](https://github.com/rk012/Instacart-time-slot-finder/archive/master.zip) this repository
