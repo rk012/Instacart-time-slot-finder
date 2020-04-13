@@ -8,7 +8,7 @@ import sys
 if sys.platform.startswith('win'):
     driver = webdriver.Chrome('.\\chromedriver.exe')
 else:
-    driver = webdriver.Chrome('./chromedriver.exe')
+    driver = webdriver.Chrome('./chromedriver')
 
 driver.get('https://messages.google.com/web/authentication')
 
