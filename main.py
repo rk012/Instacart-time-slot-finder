@@ -3,8 +3,12 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 
 import time
+import sys
 
-driver = webdriver.Chrome()
+if sys.platform.startswith('win'):
+    driver = webdriver.Chrome('.\\chromedriver.exe')
+else:
+    driver = webdriver.Chrome('./chromedriver.exe')
 
 driver.get('https://messages.google.com/web/authentication')
 
